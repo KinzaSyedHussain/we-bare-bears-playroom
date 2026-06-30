@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.controls {
+    width: 150px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.controls button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.playroom {
+    flex-grow: 1;
+    background-image: url('images/cave-living-room.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid #555;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-left: 1px slid #ccc;
+    overflow-y: scroll;
+}
+
+.sticker {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    cursor: grab;
+    display: block;
+    transition: transform 0.1s ease;
+}
+
+.sticker:hover {
+    transform: scale(1.1);
+}
+
+.playroom.sticker {
+    position: absolute;
+    cursor: move;
+}
