@@ -9,13 +9,16 @@
 <body>
     <div class="controls">
         <h3>Scenes</h3>
-        <button onclick="changeBg('bedroom.jpg')">bedroom</button>
+        <button onclick="changeBg('bedroom.jfif')">bedroom</button>
         <button onclick="changeBg('hall.jpg')">Hall</button>
         <button onclick="changeBg('outside.jpg')">Outside</button>
-        <button onclick="changeBg('forest.jpg')">Forest</button>
+        <button onclick="changeBg('forest.jpeg')">Forest</button>
     </div>
 
-    <div id="plauroom" class="playroom"></div>
+    <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ccc;">
+    <button onclick="clearPlayroom()" style="background-color: #ff4d4d; color: white; font-weight: bold;">Clear All</button>
+
+    <div id="playroom" class="playroom"></div>
     <div class="sidebar">
         <h3>Bears</h3>
 
@@ -33,7 +36,7 @@
         <img src="character/Iceyaction.png" class="sticker" draggable="true" id="ice2">
         <img src="character/iceyclean.png" class="sticker" draggable="true" id="ice3">
         <img src="character/iceyhungry.png" class="sticker" draggable="true" id="ice4">
-        <img src="character/iceylaying.png" class="sidebar" draggable="true" id="ice5"> 
+        <img src="character/iceylaying.png" class="sticker" draggable="true" id="ice5"> 
     </div>
     
     <script src="script.js"></script>

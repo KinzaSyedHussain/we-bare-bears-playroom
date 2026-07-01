@@ -23,7 +23,7 @@ body {
 
 .playroom {
     flex-grow: 1;
-    background-image: url('images/cave-living-room.jpg');
+    background-image: url('bedroom.jfif');
     background-size: cover;
     background-position: center;
     position: relative;
